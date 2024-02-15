@@ -4,6 +4,6 @@ import com.example.jpaProject.entity.Member;
 import org.springframework.stereotype.Service;
 
 @Service
-public interface MemberService {
+public interface MemberService { //구현체
     void join(Member member);
 }
